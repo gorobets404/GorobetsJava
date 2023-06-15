@@ -29,7 +29,7 @@ public class Main {
             name = in.next();
             System.out.println(name);
         }
-        if (name.equals("Вячеслав")) {
+        if (name.equalsIgnoreCase("Вячеслав")) {
             System.out.println("Привет, " + name);
         } else {
             System.out.println("Нет такого имени!");
